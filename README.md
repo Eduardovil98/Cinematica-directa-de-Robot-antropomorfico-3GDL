@@ -511,11 +511,13 @@ Con valores de:
 <p align="center">
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/317921731_2388241728009560_7345649208629501699_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGU3sIyeMx8p9GOt6A8kZwW3GGrGX3nuVXcYasZfee5VcwUTduCBGL3e3QAZOo2SZBGtSql5Z7trHWwTHH1pLZa&_nc_ohc=WT1PTPWUiFkAX_6xBmp&_nc_ht=scontent.fntr3-1.fna&oh=00_AfBoF0YXVkuFIFznf5hC4DUBj4kL2ZdcjbHyusR8N06MKQ&oe=638FE9C3' width='400'>
 </p>
+
 ```python
 >> Eje en x: 0.45
 >> Eje en y: 0.0
 >> Eje en z: 0.3
 ```
+
 ###### Test 2
 ```python
 Con valores de:
@@ -526,11 +528,13 @@ Con valores de:
 <p align="center">
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/318199688_2388250764675323_2400862548932717296_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHTrf1R9JVBj2N2IcqC2UT5p2B2zoLsYJinYHbOguxgmBoLGa7vQcch2yVBS4svnSLVE748rz379-ouiEHJtVlv&_nc_ohc=xG3NZ0RA8O4AX9XdOKG&_nc_ht=scontent.fntr3-1.fna&oh=00_AfBcNT7VT8HizZHKwH8eGBLAY9c9y1kkucBFNd7l1DUutA&oe=638EA2E6' width='400'>
 </p>
+
 ```python
 >> Eje en x: 0
 >> Eje en y: 0.38
 >> Eje en z: 0.48
 ```
+
 ###### Test 3
 ```python
 Con valores de:
@@ -541,6 +545,7 @@ Con valores de:
 <p align="center">
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/317844283_2388240801342986_9205098720764980694_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeG2Qs8lnHcMlkavRqwsK9b7daWaAssyCWp1pZoCyzIJag2YfMjkCriOBOHDuq8NxP36yfFh4jJg6JROyqVDzT6j&_nc_ohc=5_Ixxtod_-AAX_Y2rL2&_nc_ht=scontent.fntr3-1.fna&oh=00_AfDOyKj0AL2H6JN30J9y--kA747QC-pA7uaKCWVWiKMWkg&oe=638FF313' width='400'>
 </p>
+
 ```python
 >> Eje en x: 0.45
 >> Eje en y: 0
