@@ -7,14 +7,6 @@
 <img src='https://ruslanmv.com/assets/images/posts/2022-01-24-How-to-connect-Google-Colab-to-your-computer/colab.png' width='150'> <img src='https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png' width='200'>
 
 
-
-
-**Tabla de contenido**
-
-[TOCM]
-
-[TOC]
-
 ##### Introducción
 La cinemática directa consiste en determinar cuál es la posición y orientación del extremo final del robot, con respecto a un sistema de coordenadas que se toma como referencia, conocidos los valores de las articulaciones y los parámetros geométricos de los elementos del robot.
 - Se utiliza fundamentalmente el álgebra vectorial y matricial para representar y describir la localización de un objeto en el espacio tridimensional con respecto a un sistema de referencia fijo.
