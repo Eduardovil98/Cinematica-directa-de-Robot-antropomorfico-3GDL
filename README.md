@@ -19,7 +19,7 @@ En la figura se muestran las características y dimensiones del brazo robótico 
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/317782345_2387475848086148_3634494119880566751_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFh-T0CGfNJ_QjnJXcg-qPzPu_rvC6HWPk-7-u8LodY-YzbJKdy0MRuccMUYFtTq_85JzXqjEwveUxyoCh8KSTz&_nc_ohc=AsXZFPuJEAoAX-Vx77O&_nc_ht=scontent.fntr3-1.fna&oh=00_AfDb2MYwko-DjCkRcJihsVr8gAV6nryLlCvTLJHZlEc2sw&oe=638DB7F3' width='300'>
 </p>
 
-Una vez instalas las librerías iniciaremos a programar las funciones que nos ayudaran a calcular la cinemática directa del robot.
+
 ### Programación
 
 ##### Paso 1)
@@ -28,6 +28,8 @@ Lo primero que realizaremos es sacar la representación de Denavit-Hartenberg co
 <p align="center">
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/317938354_2387491028084630_4684303261126530196_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGTN0Eb-k3pVBpML1BnfQDoSYHqYpEKhi5JgepikQqGLtjb8gj2WI0PTniO4DEt7-aGXtAUQZ1qo5cpHrXjKmI6&_nc_ohc=OKJ54kENkGUAX8CIBNa&tn=p7f7HmXJygRraCre&_nc_ht=scontent.fntr3-1.fna&oh=00_AfBS8aiXdfMnpt7NKgfCYy7-hRkgMz0r1wQoO0siDqcxOg&oe=638E99F7' width='400'>
 </p>
+
+Una vez instalas las librerías iniciaremos a programar las funciones que nos ayudaran a calcular la cinemática directa del robot.
 
 ##### Paso 2)
 Las librerías que usaremos en Python son lo siguiente:
