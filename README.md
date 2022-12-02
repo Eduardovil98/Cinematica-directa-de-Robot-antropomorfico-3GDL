@@ -15,7 +15,7 @@
 
 [TOC]
 
-#####Introducción
+##### Introducción
 La cinemática directa consiste en determinar cuál es la posición y orientación del extremo final del robot, con respecto a un sistema de coordenadas que se toma como referencia, conocidos los valores de las articulaciones y los parámetros geométricos de los elementos del robot.
 - Se utiliza fundamentalmente el álgebra vectorial y matricial para representar y describir la localización de un objeto en el espacio tridimensional con respecto a un sistema de referencia fijo.
 - Dado que un se robot puede considerar como una cadena cinemática formada por objetos rígidos o eslabones unidos entre sí mediante articulaciones, se puede establecer un sistema de referencia fijo situado en la base del robot y describir la localización de cada uno de los eslabones con respecto a dicho sistema de referencia.
@@ -28,16 +28,16 @@ En la figura se muestran las características y dimensiones del brazo robótico 
 </p>
 
 Una vez instalas las librerías iniciaremos a programar las funciones que nos ayudaran a calcular la cinemática directa del robot.
-###Programación
+### Programación
 
-#####Paso 1)
+##### Paso 1)
 Lo primero que realizaremos es sacar la representación de Denavit-Hartenberg con base a la imagen, la tabla queda de la siguiente manera:
 
 <p align="center">
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/317938354_2387491028084630_4684303261126530196_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGTN0Eb-k3pVBpML1BnfQDoSYHqYpEKhi5JgepikQqGLtjb8gj2WI0PTniO4DEt7-aGXtAUQZ1qo5cpHrXjKmI6&_nc_ohc=OKJ54kENkGUAX8CIBNa&tn=p7f7HmXJygRraCre&_nc_ht=scontent.fntr3-1.fna&oh=00_AfBS8aiXdfMnpt7NKgfCYy7-hRkgMz0r1wQoO0siDqcxOg&oe=638E99F7' width='400'>
 </p>
 
-#####Paso 2)
+##### Paso 2)
 Las librerías que usaremos en Python son lo siguiente:
 
 ```python
@@ -46,7 +46,7 @@ Las librerías que usaremos en Python son lo siguiente:
  %pip install numpy
  %pip install mpmath
 ```
-#####Librerias Usadas:
+##### Librerias Usadas:
 
 
 ```python
@@ -55,7 +55,7 @@ import sympy as sp  # librería para cálculo simbólico
 import threading    # librería para trabajar funciones en paralelo
 
 ```
-#####Crear clase para D-H
+##### Crear clase para D-H
 
 Esta clase ayudara a realizar las operaciones de forma paralela para calcular la expresión de la matriz de transformación D-H.
 ```python
@@ -146,7 +146,7 @@ class InvKin():
         return T
 ```
 
-#####Calcular parámetros de cada eslabón
+##### Calcular parámetros de cada eslabón
 
 Con la clase podremos calcular las matrices de Denavit Hartenberg, lo siguiente es definir las variables de los parametros del robot, sustiyuyendo los valores en la tabla de D-H quedaría de la siguiente manera.
 
@@ -249,7 +249,7 @@ Matriz resultado de la tercera articulación.
 | 0 | 0 | 1 | 0 |
 | 0 | 0 | 0 | 1 |
 
-#####Calcular la matriz T
+##### Calcular la matriz T
 Una vez calculados los parámetros de cada eslabón, se calcula la matriz **T** que indica la localización del sistema final con respecto al sistema de referencia de la base del robot.
 
 $$ T = (T01)(T02)(T03) $$
@@ -325,7 +325,7 @@ T_result
 | 0 | 1 | 0 | 0.3 |
 | 0 | 0 | 0 | 1 |
 
-#####Resultado
+##### Resultado
 ```
 Las coordenadas del punto final del robot son:
 
@@ -345,7 +345,7 @@ print("Eje en Z:", round(T_result[2,3], 2))
 Al rotar 90º (π/2 rad) a θ1 y θ2.
 
 ```
-#####Visualización con Matplotlib
+##### Visualización con Matplotlib
 
 Lo primero es importar las librerias en Python
 
@@ -499,9 +499,9 @@ plot1.camera(80)
 plot1.start(theta1, theta2, theta3)
 ```
 
-#####Visualizar resultados
+##### Visualizar resultados
 
-######Test 1
+###### Test 1
 ```python
 Con valores de:
 >> θ1 = 90
@@ -516,7 +516,7 @@ Con valores de:
 >> Eje en y: 0.0
 >> Eje en z: 0.3
 ```
-######Test 2
+###### Test 2
 ```python
 Con valores de:
 >> θ1 = 90
@@ -531,7 +531,7 @@ Con valores de:
 >> Eje en y: 0.38
 >> Eje en z: 0.48
 ```
-######Test 3
+###### Test 3
 ```python
 Con valores de:
 >> θ1 = 0
@@ -550,7 +550,7 @@ Con valores de:
 A lo largo del desarrollo del proyecto se lograron diferentes objetivos, como fue el iniciar con la creación de funciones en Python que sean lo suficientemente robustas para obtener los resultados de la cinemática directa del robot de 3GDL mediante matrices. Los resultados finales fueron satisfactorios de acuerdo con los objetivos planteados.
 Se realizaron diferentes casos para validar que las funciones realizaban las operaciones de forma correcta, obteniendo resultados satisfactorios.
 
-######Algunas referencias
+##### Algunas referencias
 
 ```python
 https://ocw.ehu.eus/pluginfile.php/50445/mod_resource/content/8/T5%20CINEMATICA%20OCW_Revision.pdf
