@@ -14,7 +14,7 @@ La cinemática directa consiste en determinar cuál es la posición y orientaci�
 
 El presente trabajo aporta un ejemplo de la aplicación de la cinemática directa a un robot de tres grados de libertad con la representación de Denavit-Hartenberg y las matrices de transformación homogénea el cual fue desarrollado con el lenguaje de programación Python con IDE de Google Colab.
 
-En la figura se muestran las características y dimensiones del brazo robótico con el cual se obtendrá la cinemática directa.
+En la figura se muestran las características y dimensiones del brazo robótico con el cual se obtendrá la cinemática directa para determinar la posición y orientación del elemento terminal referido a la base.
 <p align="center">
 	<img src='https://scontent.fntr3-1.fna.fbcdn.net/v/t39.30808-6/317782345_2387475848086148_3634494119880566751_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFh-T0CGfNJ_QjnJXcg-qPzPu_rvC6HWPk-7-u8LodY-YzbJKdy0MRuccMUYFtTq_85JzXqjEwveUxyoCh8KSTz&_nc_ohc=AsXZFPuJEAoAX-Vx77O&_nc_ht=scontent.fntr3-1.fna&oh=00_AfDb2MYwko-DjCkRcJihsVr8gAV6nryLlCvTLJHZlEc2sw&oe=638DB7F3' width='300'>
 </p>
@@ -562,5 +562,5 @@ https://www.youtube.com/watch?v=7aTGEjDmvv4
 https://www.kramirez.net/Robotica/Material/Presentaciones/CinematicaDirectaRobot.pdf
 https://nbio.umh.es/files/2012/04/practica2.pdf
 https://github.com/aakieu/3-dof-planar
-
+https://dancasas.github.io/teaching/AC-2019/docs/2.1-Cinematica-directa-v2019.pdf
 ```
