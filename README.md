@@ -550,9 +550,9 @@ Con valores de:
 A lo largo del desarrollo del proyecto se lograron diferentes objetivos, como fue el iniciar con la creación de funciones en Python que sean lo suficientemente robustas para obtener los resultados de la cinemática directa del robot de 3GDL mediante matrices. Los resultados finales fueron satisfactorios de acuerdo con los objetivos planteados.
 Se realizaron diferentes casos para validar que las funciones realizaban las operaciones de forma correcta, obteniendo resultados satisfactorios.
 
-#####Algunas referencias
+####Algunas referencias
 
-```
+```python
 https://ocw.ehu.eus/pluginfile.php/50445/mod_resource/content/8/T5%20CINEMATICA%20OCW_Revision.pdf
 https://www.youtube.com/watch?v=V_IIeLJzR44
 http://motion.cs.illinois.edu/RoboticSystems/CoordinateTransformations.html
