@@ -12,7 +12,7 @@ La cinemática directa consiste en determinar cuál es la posición y orientaci�
 - Se utiliza fundamentalmente el álgebra vectorial y matricial para representar y describir la localización de un objeto en el espacio tridimensional con respecto a un sistema de referencia fijo.
 - Dado que un se robot puede considerar como una cadena cinemática formada por objetos rígidos o eslabones unidos entre sí mediante articulaciones, se puede establecer un sistema de referencia fijo situado en la base del robot y describir la localización de cada uno de los eslabones con respecto a dicho sistema de referencia.
 
-El presente trabajo aporta un ejemplo de la aplicación de la cinemática directa a un robot de tres grados de libertad con la representación de Denavit-Hartenberg y las matrices de transformación homogénea el cual fue desarrollado con el lenguaje de programación Python con IDE de Google Colab.
+El presente trabajo aporta un ejemplo de la aplicación de la cinemática directa a un robot de tres grados de libertad con la representación de Denavit-Hartenberg de las matrices de transformación homogénea, se tiene o se conocen los siguientes valores:  el ángulo medido entre los ejes articulares y la distancia entre los ejes articulares, con estas variable podremos programar un algoritmo que nos indique la posición final del robot y mostrarlo de manera gráfica, este proyecto fue desarrollado con el lenguaje de programación Python con IDE de Google Colab.
 
 En la figura se muestran las características y dimensiones del brazo robótico con el cual se obtendrá la cinemática directa para determinar la posición y orientación del elemento terminal referido a la base.
 <p align="center">
@@ -37,8 +37,8 @@ Las librerías que usaremos en Python son lo siguiente:
  %pip install sympy==1.10.1
  %pip install matplotlib
  %pip install numpy
- %pip install mpmath
 ```
+La librería **sysmpy** nos ayuda a realizar operaciones con símbolos matemáticos, además de poder trabajar con matrices, otra librería muy utilizada en Python es **numpy**, esta librería nos permite crear matrices y realizar operaciones matriciales y finalmente matplotlib el cual nos ayudara a crear gráficos a partir de datos contenidos en lista o matriz.
 
 Una vez instalas las librerías iniciaremos a programar las funciones que nos ayudaran a calcular la cinemática directa del robot.
 
