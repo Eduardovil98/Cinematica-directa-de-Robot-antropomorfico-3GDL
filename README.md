@@ -556,9 +556,9 @@ Se realizaron diferentes casos para validar que las funciones realizaban las ope
 
 ##### Trabajo futuro
 
-- Poder calcular la cinematica inversa y directa de un brazo robotico para n grados de libertad.
-- Trabajar con multiples robots.
-- Detectar si existen coliciones entre ellas a partir de la cinimatica inversa y directa. 
+- Poder calcular la cinemática inversa y directa de un brazo robótico para n grados de libertad.
+- Trabajar con múltiples robots.
+- Detectar si existen colisiones entre ellas a partir de la cinemática inversa y directa.
 
 ##### Algunas referencias
 
