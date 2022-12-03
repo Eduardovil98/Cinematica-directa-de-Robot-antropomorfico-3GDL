@@ -551,8 +551,14 @@ Con valores de:
 >> Eje en z: 0.3
 ```
 
-A lo largo del desarrollo del proyecto se lograron diferentes objetivos, como fue el iniciar con la creación de funciones en Python que sean lo suficientemente robustas para obtener los resultados de la cinemática directa del robot de 3GDL mediante matrices. Los resultados finales fueron satisfactorios de acuerdo con los objetivos planteados.
+A lo largo del desarrollo del proyecto se lograron diferentes objetivos, como fue el iniciar con la creación de funciones en Python que sean lo suficientemente robustas para obtener los resultados de la cinemática directa del robot de 3GDL mediante matrices, esto nos podría ayudar para decidir las dimensiones adecuadas del brazo acorde al espacio de trabajo. Los resultados finales fueron satisfactorios de acuerdo con los objetivos planteados.
 Se realizaron diferentes casos para validar que las funciones realizaban las operaciones de forma correcta.
+
+##### Trabajo futuro
+
+- Poder calcular la cinematica inversa y directa de un brazo robotico para n grados de libertad.
+- Trabajar con multiples robots.
+- Detectar si existen coliciones entre ellas a partir de la cinimatica inversa y directa. 
 
 ##### Algunas referencias
 
