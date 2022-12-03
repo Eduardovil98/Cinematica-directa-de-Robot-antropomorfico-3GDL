@@ -7,7 +7,7 @@
 <img src='https://ruslanmv.com/assets/images/posts/2022-01-24-How-to-connect-Google-Colab-to-your-computer/colab.png' width='150'> <img src='https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png' width='200'>
 
 
-##### Introducción
+### Introducción
 La cinemática directa consiste en determinar cuál es la posición y orientación del extremo final del robot, con respecto a un sistema de coordenadas que se toma como referencia, conocidos los valores de las articulaciones y los parámetros geométricos de los elementos del robot.
 - Se utiliza fundamentalmente el álgebra vectorial y matricial para representar y describir la localización de un objeto en el espacio tridimensional con respecto a un sistema de referencia fijo.
 - Dado que un se robot puede considerar como una cadena cinemática formada por objetos rígidos o eslabones unidos entre sí mediante articulaciones, se puede establecer un sistema de referencia fijo situado en la base del robot y describir la localización de cada uno de los eslabones con respecto a dicho sistema de referencia.
@@ -20,9 +20,13 @@ En la figura se muestran las características y dimensiones del brazo robótico 
 </p>
 
 
-### Programación
+### Justificación
 
-##### Paso 1)
+Hoy en día la mayoría de las industrias automatizadas cuentan brazos robóticos para ejecutar diferentes trabajos en especial peligrosos y de alta dificultad, además de que son rápidos, confiables y precisos, por eso es llamativo conocer un poco sobre el funcionamiento de estos.
+ En este trabajo se aborda el conocimiento de un brazo robótico de configuración antropomórfica. La finalidad de trabajar con este tipo de brazo es conocer una de las muchas formas que existen para poder calcular la cinemática directa del brazo, además de realizar el programa un lenguaje muy usado en la actualidad.
+
+### Metodologia
+
 Lo primero que realizaremos es sacar la representación de Denavit-Hartenberg con base a la imagen, la tabla queda de la siguiente manera:
 
 <p align="center">
@@ -30,7 +34,6 @@ Lo primero que realizaremos es sacar la representación de Denavit-Hartenberg co
 </p>
 
 
-##### Paso 2)
 Las librerías que usaremos en Python son lo siguiente:
 
 ```python
