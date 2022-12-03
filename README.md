@@ -73,7 +73,7 @@ class InvKin():
     def matrix_mult(self, init, final, row, col, matrixA, MatrixB, MatrixC):
         """
         Funcion para realizar multiplicacion de matrices por bloques
-        :param init: Valor inicial del bloqe
+        :param init: Valor inicial del bloque
         :param final: Valor final del bloque
         :param row: Numero de filas
         :param col: Numero de columnas
