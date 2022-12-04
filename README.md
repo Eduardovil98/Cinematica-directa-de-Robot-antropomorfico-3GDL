@@ -181,7 +181,7 @@ a3 = 0.25
 theta3 = 0
 ```
 
-Crearemos una instancia de la clase **InvKin**
+Crearemos una instancia de la clase **InvKin** con parámetro 2, debido a que el tamaño de la matriz es de 4x4, entonces con 2 subprocesos o hilos trabajando en paralelo es más que suficiente.
 
 ```python
 __instance_matrix = InvKin(threads_num=2)
