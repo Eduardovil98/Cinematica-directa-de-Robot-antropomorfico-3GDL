@@ -22,7 +22,7 @@ En la figura se muestran las características y dimensiones del brazo robótico 
 
 ### Justificación
 
-Hoy en día la mayoría de las industrias automatizadas cuentan brazos robóticos para ejecutar diferentes trabajos en especial peligrosos y de alta dificultad, además de que son rápidos, confiables y precisos, por eso es llamativo conocer un poco sobre el funcionamiento de estos.
+Hoy en día la mayoría de las industrias automatizadas cuentan con brazos robóticos para ejecutar diferentes trabajos en especial peligrosos y de alta dificultad, además de que son rápidos, confiables y precisos, por eso es llamativo conocer un poco sobre el funcionamiento de estos.
  En este trabajo se aborda el conocimiento de un brazo robótico de configuración antropomórfica. La finalidad de trabajar con este tipo de brazo es conocer una de las muchas formas que existen para poder calcular la cinemática directa del brazo, además de realizar el programa un lenguaje muy usado en la actualidad.
 
 ### Metodología
